@@ -1,35 +1,29 @@
-import React from 'react'
-import styled from 'styled-components'
-import GlobalStyles from './styles/GlobalStyles';
-import  Button  from './ui/Button';
-import Input from './ui/Input';
-
-const H1 = styled.h1`
-    font-size:30px;
-    font-weight:600;
-    color: white;
-    
-`;
-
-
+import React from "react";
+import styled from "styled-components";
+import GlobalStyles from "./styles/GlobalStyles";
+import Button from "./ui/Button";
+import Input from "./ui/Input";
+import Heading from "./ui/Heading";
 
 const StyledApp = styled.div`
-    background-color: red;
-    padding: 2px;
+  background-color: red;
+  padding: 2px;
 `;
 
 export const App = () => {
   return (
     <>
-    <GlobalStyles/>
-    <StyledApp>
-        <H1> The wild oasis</H1>
-        <Button onClick={()=> alert("Pikachu")}>Check in</Button>
-        <Button onClick={()=> alert("Pikachu")}>Check in</Button>
-        <Input type='number' placeholder='Number of guests'/>
+      <GlobalStyles />
+      <StyledApp>
+        <Heading as="h1"> The wild oasis</Heading>
+        <Heading as="h2"> Check in and out</Heading>
 
-    </StyledApp>
+        <Button onClick={() => alert("Pikachu")}>Check in</Button>
+        <Button onClick={() => alert("Pikachu")}>Check in</Button>
+        <Heading as="h3"> Form</Heading>
+
+        <Input type="number" placeholder="Number of guests" />
+      </StyledApp>
     </>
-    
-  )
-}
+  );
+};
