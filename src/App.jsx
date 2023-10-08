@@ -15,12 +15,12 @@ export const App = () => {
     <>
       <GlobalStyles />
       <StyledApp>
-        <Heading as="h1"> The wild oasis</Heading>
-        <Heading as="h2"> Check in and out</Heading>
+        <Heading type="h1"> The wild oasis</Heading>
+        <Heading type="h2"> Check in and out</Heading>
 
         <Button onClick={() => alert("Pikachu")}>Check in</Button>
         <Button onClick={() => alert("Pikachu")}>Check in</Button>
-        <Heading as="h3"> Form</Heading>
+        <Heading type="h3"> Form</Heading>
 
         <Input type="number" placeholder="Number of guests" />
       </StyledApp>
