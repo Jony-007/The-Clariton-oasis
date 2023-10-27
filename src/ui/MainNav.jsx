@@ -53,7 +53,7 @@ const StyledNavLink = styled(NavLink)`
   }
 `;
 
-const MainNav = () => {
+function MainNav() {
   return (
     <nav>
       <NavList>
@@ -63,28 +63,24 @@ const MainNav = () => {
             <span>Home</span>
           </StyledNavLink>
         </li>
-
         <li>
           <StyledNavLink to="/bookings">
             <HiOutlineCalendarDays />
-            <span>Booking</span>
+            <span>Bookings</span>
           </StyledNavLink>
         </li>
-
         <li>
           <StyledNavLink to="/cabins">
             <HiOutlineHomeModern />
             <span>Cabins</span>
           </StyledNavLink>
         </li>
-
         <li>
           <StyledNavLink to="/users">
             <HiOutlineUsers />
             <span>Users</span>
           </StyledNavLink>
         </li>
-
         <li>
           <StyledNavLink to="/settings">
             <HiOutlineCog6Tooth />
@@ -94,6 +90,6 @@ const MainNav = () => {
       </NavList>
     </nav>
   );
-};
+}
 
 export default MainNav;

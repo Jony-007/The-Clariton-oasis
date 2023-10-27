@@ -1,5 +1,4 @@
-import { css } from "styled-components";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Row = styled.div`
   display: flex;
@@ -15,7 +14,7 @@ const Row = styled.div`
     props.type === "vertical" &&
     css`
       flex-direction: column;
-      gap: 1.4rem;
+      gap: 1.6rem;
     `}
 `;
 
