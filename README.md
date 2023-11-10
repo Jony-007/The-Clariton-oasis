@@ -1,8 +1,15 @@
-# React + Vite
+# The Wild Oasis Hotel Management Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to The Wild Oasis Hotel Management Web Application! This application is designed to streamline hotel management operations and provide an efficient platform for managing reservations, guests, rooms, and more.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Reservation Management:** Effortlessly manage guest reservations and bookings.
+- **Room Allocation:** Assign rooms to guests and keep track of occupancy.
+- **Guest Information:** Maintain guest profiles and preferences for a personalized experience.
+- **Billing and Invoicing:** Generate bills and invoices for services availed during the stay.
+- **Reports and Analytics:** Access insightful reports to make informed decisions.
+- **User Roles:** Differentiate between staff, admin, and manager roles with appropriate permissions.
+
+  [Check it out](https://the-wild-oasis-hotel-app.netlify.app)
